@@ -1,0 +1,30 @@
+.addList_div {
+  width: 5%;
+  min-height: 5vh;
+  /* background-color: rgba(255, 255, 255, 0.562); */
+  backdrop-filter: blur(5px);
+  /* box-shadow: 2px 0px 5px rgba(99, 99, 99, 0.384); */
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  justify-self: flex-end;
+  font-size: 80%;
+  z-index: 2;
+  position: absolute;
+  margin-top: 94vh;
+  border-radius: 0vh 50vh 50vh 0vh;
+  user-select: none;
+}
+.add {
+  margin: auto;
+  padding: auto;
+  margin-right: 5%;
+}
+.addList_div:hover {
+  cursor: alias;
+}
+.logo2 {
+  padding-left: 2.8vh;
+}

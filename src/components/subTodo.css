@@ -1,0 +1,28 @@
+.subtodos {
+  height: fit-content;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  margin: 1px;
+  border-radius: 0.3rem;
+  text-align: center;
+  justify-content: left;
+  align-items: center;
+  padding: 1%;
+  cursor: pointer;
+}
+.subLogo {
+  background-color: #f0ffd6;
+  padding: 0.8%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 50%;
+  border: 1px rgb(65, 65, 65) solid;
+}
+
+.subtodoText {
+  user-select: none;
+  text-align: left;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}

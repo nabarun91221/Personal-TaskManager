@@ -1,0 +1,15 @@
+.profileS {
+  height: auto;
+  width: auto;
+  padding: auto;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+  font-weight: 900;
+}
+.avater {
+  height: 40%;
+  width: 40%;
+}
+.profileName {
+  font-size: 90%;
+}

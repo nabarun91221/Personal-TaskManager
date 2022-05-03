@@ -1,0 +1,10 @@
+.details_div {
+  min-height: 100%;
+  width: 100%;
+  border-left: 1px rgba(245, 245, 245, 0.185) solid;
+  backdrop-filter: blur(2px);
+}
+.Upperdetails_div {
+  min-height: 100vh;
+  width: 25%;
+}

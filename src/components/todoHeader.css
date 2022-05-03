@@ -1,0 +1,65 @@
+.todoHeader {
+  height: 10%;
+  width: 99%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+}
+.title {
+  height: 100%;
+  width: 100%;
+  font-size: 4vh;
+  display: flex;
+  text-align: left;
+  justify-content: baseline;
+  align-items: center;
+  background-color: inherit;
+  margin-left: 8%;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+}
+.title:focus {
+  outline: none;
+}
+.titleForm {
+  height: 100%;
+  width: 100%;
+  font-size: 4vh;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  background-color: inherit;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  margin-left: 2.8%;
+  margin-right: 4.8%;
+}
+.dropDown {
+  height: 100%;
+  width: 45vh;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.wallpaperType {
+  height: 30%;
+  width: 40%;
+  border-radius: 1vh 0 0 1vh;
+  padding-left: 2%;
+  padding-right: 2%;
+  border: 1px rgb(255, 255, 255) solid;
+  outline: none;
+  font-weight: 800;
+  /* backdrop-filter: blur(50px); */
+}
+.wallpaperLogo {
+  margin-right: 1vh;
+}
+.delete {
+  cursor: pointer;
+  margin-left: 5%;
+}

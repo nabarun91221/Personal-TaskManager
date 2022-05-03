@@ -1,0 +1,9 @@
+
+
+// following should be fixed in the next development process
+
+1) List Element's counter is not updated after adding a new todo 🐞
+2) Sometime there is problem while selecting todo and add sub todo 🐞
+4) "AddTodo logo" and it's perent div becomes irresponsive 🐞
+4) "AddSection logo" and it's perent div becomes irresponsive 🐞
+5) deadLine propaty unable to assign on eatch todo 🐞

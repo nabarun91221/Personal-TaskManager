@@ -1,0 +1,14 @@
+
+
+// These implementation shold be done in the next development process
+
+1) BackEnd manifestation ⭐️⭐️⭐️⭐️⭐️| ❌
+2) DeadLine propaty should be added to eatch Todo Element ⭐️⭐️| ❌
+3) User Login and sign in implementation ⭐️⭐️⭐️| ❌
+4) conformation popup on deleting Element ⭐️| ❌
+5) floting notification on successfull deletion ⭐️| ❌
+6) attach files or links or both in details page of eatch todo ⭐️⭐️| ❌
+7) when whole section is deleted, a SVG should be rendered in the mainTodo Section 
+   like WhatsApp when no chat is selected ⭐️⭐️| ❌
+   
+8) ....
