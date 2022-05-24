@@ -1,0 +1,30 @@
+
+.dateForm{
+    width: 100%;
+    height: 3rem;
+    padding: 0.6rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.dateInput{
+    margin-right:0.1rem;
+    width: 75%;
+    height: 1.7rem;
+    border-radius: 5px 0 0 5px;
+    border:1px rgb(74, 74, 74) solid;
+}
+.dateSubmit{
+    margin-right:1rem;
+    height: 1.85rem;
+    padding: 5px;
+    border-radius: 0 5px 5px 0;
+    background-color: white;
+    border: 1px rgb(74, 74, 74) solid;
+}
+.dateDisplay{
+    width: 100%;
+    height: 3rem;
+    padding: 0.6rem;
+}

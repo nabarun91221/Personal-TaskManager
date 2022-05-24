@@ -179,6 +179,8 @@ function App() {
         <TodoInputbox addTodo={addTodo} SelectedListItem={SelectedListItem} ></TodoInputbox>
       </TodoPanel>
       <DetailsDiv theme={themeToggle} TextColor={TextColor} detailsToggle={detailsToggle} setdetailsToggle={setdetailsToggle}>
+                <DateTime deadLine={SelectedTodo.deadLine} setitems={setsubTodos} items={subTodos} item={SelectedTodo}></DateTime>
+
         {
           
             SelectedTodo!==""?
@@ -191,7 +193,6 @@ function App() {
             
         }
         <AddSubtodo TextColor={TextColor} item={SelectedTodo} setitem={setSelectedTodo} setitems={setsubTodos}></AddSubtodo>
-        <DateTime deadLine={SelectedTodo.deadLine} setitems={setsubTodos} items={subTodos} item={SelectedTodo}></DateTime>
       </DetailsDiv>
     </motion.div>
   );
